@@ -4,8 +4,7 @@ build/
 *.mode1v3
 *.mode2v3
 *.perspective
-*.perspectivev3
-*.pbxuser
+*.perspectivev3:wq
 *.xcworkspace
 
  
