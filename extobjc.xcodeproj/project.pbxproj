@@ -127,6 +127,26 @@
 		AC719B6021DDE1740015D17E /* libextobjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libextobjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC719B6221DDE1740015D17E /* libextobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libextobjc.h; sourceTree = "<group>"; };
 		AC719B6321DDE1740015D17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC719C3421DF2C4B0015D17E /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		AC719C3521DF2C580015D17E /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		AC719C3621DF2C580015D17E /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		AC719C3721DF2C580015D17E /* Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		AC719C3821DF2C580015D17E /* Profile.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		AC719C3921DF2C630015D17E /* Extension.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Extension.xcconfig; sourceTree = "<group>"; };
+		AC719C3A21DF2C630015D17E /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		AC719C3B21DF2C630015D17E /* Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
+		AC719C3C21DF2C630015D17E /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		AC719C3D21DF2C710015D17E /* iOS-Extension.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Extension.xcconfig"; sourceTree = "<group>"; };
+		AC719C3E21DF2C710015D17E /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		AC719C3F21DF2C710015D17E /* iOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		AC719C4021DF2C720015D17E /* iOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		AC719C4121DF2C720015D17E /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		AC719C4221DF2C7F0015D17E /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		AC719C4321DF2C7F0015D17E /* Mac-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		AC719C4421DF2C7F0015D17E /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		AC719C4521DF2C7F0015D17E /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		AC719C4621DF2C7F0015D17E /* Mac-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
+		AC719C4721DF2C7F0015D17E /* Mac-XCTest.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-XCTest.xcconfig"; sourceTree = "<group>"; };
 		D002DAF613656CDF005348A5 /* EXTNilTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTNilTest.h; sourceTree = "<group>"; };
 		D002DAF713656CDF005348A5 /* EXTNilTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTNilTest.m; sourceTree = "<group>"; };
 		D005F01815950509007A8A1C /* EXTADT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTADT.h; sourceTree = "<group>"; };
@@ -155,20 +175,6 @@
 		D088C7BD159121A300C70CE2 /* EXTKeyPathCodingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTKeyPathCodingTest.m; sourceTree = "<group>"; };
 		D088C7F31591377000C70CE2 /* EXTADTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTADTTest.h; sourceTree = "<group>"; };
 		D088C7F41591377000C70CE2 /* EXTADTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTADTTest.m; sourceTree = "<group>"; };
-		D0919C4D146F99B900D680C9 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		D0919C4F146F99B900D680C9 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		D0919C50146F99B900D680C9 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
-		D0919C51146F99B900D680C9 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		D0919C53146F99B900D680C9 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
-		D0919C54146F99B900D680C9 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
-		D0919C56146F99B900D680C9 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
-		D0919C57146F99B900D680C9 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
-		D0919C58146F99B900D680C9 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		D0919C5A146F99B900D680C9 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
-		D0919C5B146F99B900D680C9 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
-		D0919C5C146F99B900D680C9 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
-		D0919C5D146F99B900D680C9 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
-		D0919C5E146F99B900D680C9 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		D0919C5F146F99B900D680C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		D09FB2F5159A41C400A5F6A4 /* EXTSelectorChecking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTSelectorChecking.h; sourceTree = "<group>"; };
 		D09FB2F8159A41D100A5F6A4 /* EXTSelectorCheckingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTSelectorCheckingTest.h; sourceTree = "<group>"; };
@@ -349,7 +355,7 @@
 		D0919C4C146F99B900D680C9 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				D0919C4D146F99B900D680C9 /* Common.xcconfig */,
+				AC719C3421DF2C4B0015D17E /* Common.xcconfig */,
 				D0919C4E146F99B900D680C9 /* Configurations */,
 				D0919C52146F99B900D680C9 /* Targets */,
 			);
@@ -359,9 +365,10 @@
 		D0919C4E146F99B900D680C9 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				D0919C4F146F99B900D680C9 /* Debug.xcconfig */,
-				D0919C50146F99B900D680C9 /* Profile.xcconfig */,
-				D0919C51146F99B900D680C9 /* Release.xcconfig */,
+				AC719C3521DF2C580015D17E /* Debug.xcconfig */,
+				AC719C3821DF2C580015D17E /* Profile.xcconfig */,
+				AC719C3621DF2C580015D17E /* Release.xcconfig */,
+				AC719C3721DF2C580015D17E /* Test.xcconfig */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
@@ -369,8 +376,10 @@
 		D0919C52146F99B900D680C9 /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				D0919C53146F99B900D680C9 /* Application.xcconfig */,
-				D0919C54146F99B900D680C9 /* StaticLibrary.xcconfig */,
+				AC719C3C21DF2C630015D17E /* Application.xcconfig */,
+				AC719C3921DF2C630015D17E /* Extension.xcconfig */,
+				AC719C3B21DF2C630015D17E /* Framework.xcconfig */,
+				AC719C3A21DF2C630015D17E /* StaticLibrary.xcconfig */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -378,9 +387,11 @@
 		D0919C55146F99B900D680C9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D0919C56146F99B900D680C9 /* iOS-Application.xcconfig */,
-				D0919C57146F99B900D680C9 /* iOS-Base.xcconfig */,
-				D0919C58146F99B900D680C9 /* iOS-StaticLibrary.xcconfig */,
+				AC719C3F21DF2C710015D17E /* iOS-Application.xcconfig */,
+				AC719C4021DF2C720015D17E /* iOS-Base.xcconfig */,
+				AC719C3D21DF2C710015D17E /* iOS-Extension.xcconfig */,
+				AC719C4121DF2C720015D17E /* iOS-Framework.xcconfig */,
+				AC719C3E21DF2C710015D17E /* iOS-StaticLibrary.xcconfig */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -388,11 +399,12 @@
 		D0919C59146F99B900D680C9 /* Mac OS X */ = {
 			isa = PBXGroup;
 			children = (
-				D0919C5A146F99B900D680C9 /* Mac-Application.xcconfig */,
-				D0919C5B146F99B900D680C9 /* Mac-Base.xcconfig */,
-				D0919C5C146F99B900D680C9 /* Mac-DynamicLibrary.xcconfig */,
-				D0919C5D146F99B900D680C9 /* Mac-Framework.xcconfig */,
-				D0919C5E146F99B900D680C9 /* Mac-StaticLibrary.xcconfig */,
+				AC719C4321DF2C7F0015D17E /* Mac-Application.xcconfig */,
+				AC719C4621DF2C7F0015D17E /* Mac-Base.xcconfig */,
+				AC719C4221DF2C7F0015D17E /* Mac-DynamicLibrary.xcconfig */,
+				AC719C4421DF2C7F0015D17E /* Mac-Framework.xcconfig */,
+				AC719C4521DF2C7F0015D17E /* Mac-StaticLibrary.xcconfig */,
+				AC719C4721DF2C7F0015D17E /* Mac-XCTest.xcconfig */,
 			);
 			path = "Mac OS X";
 			sourceTree = "<group>";
@@ -769,7 +781,6 @@
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0919C5E146F99B900D680C9 /* Mac-StaticLibrary.xcconfig */;
 			buildSettings = {
 				GCC_PREFIX_HEADER = extobjc/extobjc_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
@@ -779,7 +790,6 @@
 		};
 		1DEB922008733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0919C5E146F99B900D680C9 /* Mac-StaticLibrary.xcconfig */;
 			buildSettings = {
 				GCC_PREFIX_HEADER = extobjc/extobjc_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
@@ -789,7 +799,6 @@
 		};
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0919C4F146F99B900D680C9 /* Debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -806,7 +815,6 @@
 		};
 		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0919C51146F99B900D680C9 /* Release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -970,7 +978,6 @@
 		};
 		D0A8B02A128A4261004AACE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0919C58146F99B900D680C9 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
 				GCC_PREFIX_HEADER = extobjc/extobjc_Prefix.pch;
 				PRODUCT_NAME = extobjc_iOS;
@@ -979,7 +986,6 @@
 		};
 		D0A8B02B128A4261004AACE0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0919C58146F99B900D680C9 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
 				GCC_PREFIX_HEADER = extobjc/extobjc_Prefix.pch;
 				PRODUCT_NAME = extobjc_iOS;
@@ -988,7 +994,6 @@
 		};
 		D0A8B2DE128A495D004AACE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0919C5A146F99B900D680C9 /* Mac-Application.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1007,7 +1012,6 @@
 		};
 		D0A8B2DF128A495D004AACE0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0919C5A146F99B900D680C9 /* Mac-Application.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1026,7 +1030,6 @@
 		};
 		D0CFB611128A8EEF006DC377 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0919C56146F99B900D680C9 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1048,7 +1051,6 @@
 		};
 		D0CFB612128A8EEF006DC377 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0919C56146F99B900D680C9 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
